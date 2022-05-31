@@ -31,4 +31,4 @@ jobs:
       run: docker build -t theoilskidocker/db ./db
         
     - name: Push
-      run: docker push theoilskidocker/web 
+      run: docker push theoilskidocker/db 
